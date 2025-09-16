@@ -3,7 +3,9 @@
 
 This project provides an interactive web dashboard for visualizing and analyzing the operational data of a CNC machine. Built with Python using **Streamlit**, **Pandas**, and **Plotly**, it transforms raw time-series data from a CSV file into actionable insights, helping to track productivity, diagnose faults, and understand machine health.
 
-
+## 🌐 Live Demo
+**You can access the live, interactive dashboard here:**
+[**View Live Dashboard**](https://abhishekabhang314-sinumerik-data-collection-an-dashboard-gb4bru.streamlit.app/)
 
 ---
 
@@ -55,7 +57,7 @@ streamlit run dashboard.py
 
 Your web browser will automatically open with the application running.
 
------
+---
 
 ## 📊 Dashboard Guide
 
@@ -82,7 +84,7 @@ The main panel contains several interactive charts to help you understand the da
 4.  **Parameter Correlation:** A heatmap that shows the statistical relationship between different numeric parameters. A high value (close to 1.0) indicates a strong positive correlation (e.g., as power consumption goes up, temperature also goes up).
 5.  **Production Trend:** A line chart showing the cumulative production count over time, with a moving average to visualize the overall production rate.
 
------
+---
 
 ### 🛠️ Technologies Used
 
